@@ -11,7 +11,7 @@ class Config(object):
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001577667595"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL',"api.shareus.io")
 	SHORTLINK_API = os.environ.get('SHORTLINK_API',"uMqvZtYEWAM8uoQigOVX5HOPh253")
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5791145987 5764988016"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5764988016"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://xajay10997:Xr1p2CNHjIJLrHl8@cluster0.bjsdwy9.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "streaamdb")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", -1001953206885)
