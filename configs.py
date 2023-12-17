@@ -6,7 +6,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID", "25603034"))
 	API_HASH = os.environ.get("API_HASH", "294a7bf4488b21609436de1cdd05c316")
 	
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5983400035:AAHuXglu4ch9pnS89JQObVi57aeoBVuC6sQ")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5983400035:AAH1JL5ujlUOoBmIokwcvtSY4mFBdxX5_KE")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "storedbbot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001577667595"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL',"api.shareus.io")
